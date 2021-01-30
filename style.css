@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    background: white;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%
+}
+form{
+    min-height: auto;
+    min-width: auto;
+    max-width: 450px;
+    margin:auto;
+    padding-top:40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+.div1{
+    box-shadow: 1px 1px 5px #ccc;
+    border-radius: 5px;
+    padding: 30px;
+}
+h6{
+    padding-bottom: 10px;
+
+}
+#Email{
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    padding: 2px;
+    border: 2px solid #f2f2f2;
+    border-radius: 2px;
+    height: 3rem;
+    text-align: left;
+}
+.img{
+    margin-top: 12px;
+    display: block;
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cx4{
+    text-align: left;
+    margin-bottom: 40px;
+}
+#cx5{
+    text-align: left;
+    margin-bottom: 40px;
+}
+#cx6{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+#cx6 > div{
+    max-width: 100px;
+}
+#a1{
+    width: 100px;
+    text-transform: initial;
+    display: flex;
+    flex-shrink: initial;
+    justify-content: space-between;
+    color:  #1a73e8
+}
+#a11{
+    background-color: #1a73e8;
+    display: flex;
+    justify-content: space-between;
+    max-width: 95px;
+    text-transform: initial;
+    font-weight: bolder;
+
+}
+#a11:hover{
+    background-color: #1565c0;
+}
+section{
+    display: flex;
+    flex-shrink: 3;
+    justify-content: space-between;
+}
+@media(max-width:599px){
+    form{
+        padding-top: 70px;
+        max-width: 100%;
+    }
+    .div1{
+        box-shadow: none;
+        border-radius: 5px;
+        padding: 0;
+    }
+}
